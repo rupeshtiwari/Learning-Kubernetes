@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: development
+--- # way to signify new document in yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: production
